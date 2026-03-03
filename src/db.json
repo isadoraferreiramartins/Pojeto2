@@ -1,0 +1,50 @@
+{
+  "clientes": [
+    {
+      "id": "1",
+      "nomeFazenda": "Fazenda Boa Vista",
+      "cidade": "Muriaé"
+    },
+    {
+      "id": "95a4",
+      "nomeFazenda": "Boa Vista",
+      "proprietario": "Isadora",
+      "whatsapp": "32998485500",
+      "email": "isadora@gmail.com"
+    }
+  ],
+  "produtos": [
+    {
+      "id": "1",
+      "nome": "Fertilizante NPK 10-10-10",
+      "preco": 150,
+      "estoque": 50
+    }
+  ],
+  "vendas": [
+    {
+      "id": "1",
+      "clienteNome": "Fazenda Boa Vista",
+      "produtoNome": "Fertilizante NPK",
+      "quantidade": 10,
+      "valorTotal": 1500
+    },
+    {
+      "id": "92fb",
+      "clienteNome": "Fazenda Boa Vista",
+      "produtoNome": "Fertilizante NPK 10-10-10",
+      "quantidade": 3,
+      "valorTotal": 450,
+      "data": "03/03/2026"
+    },
+    {
+      "id": "fbd0",
+      "clienteNome": "Boa Vista",
+      "produtoNome": "Fertilizante NPK 10-10-10",
+      "quantidade": 2,
+      "valorTotal": 300,
+      "data": "03/03/2026"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
