@@ -90,6 +90,17 @@ export function FormCliente({ onClienteCadastrado }) {
           }
         />
       </div>
+      <div>
+        <input
+          type="text"
+          className="w-full border p-2 rounded-md outline-none focus:ring-2 focus:ring-green-500"
+          placeholder="Cidade"
+          value={novoCliente.cidade || ""}
+          onChange={(e) =>
+            setNovoCliente({ ...novoCliente, cidade: e.target.value })
+          }
+        />
+      </div>
 
       <button className="bg-green-700 text-white font-bold py-2 px-4 rounded-md hover:bg-green-800 transition-all shadow-lg">
         + Cadastrar Cliente
